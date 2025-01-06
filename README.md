@@ -2,6 +2,9 @@
 
 A demo application for integrating Stripe payments using the Laravel web framework.
 
+![Screenshot 1](image-doc\demo1.png)
+![Screenshot 2](image-doc\demo2.png)
+
 ## Requirements
 
 - PHP v8.0
