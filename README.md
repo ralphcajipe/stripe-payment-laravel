@@ -1,18 +1,15 @@
 # Stripe Payment Demo
-
 A demo application for integrating Stripe payments using the Laravel web framework.
 
 ![Screenshot 1](image-doc/demo1.png)
 ![Screenshot 2](image-doc/demo2.png)
 
 ## Requirements
-
 - PHP v8.0
 - Composer v2.4.1
 - Web Server (HTTPS)
 
 ## Setup
-
 ```bash
 laravel new stripe-laravel
 cd stripe-laravel
@@ -28,7 +25,6 @@ composer require stripe/stripe-php
 - resources/views/success.blade.php
 
 ## Env
-
 Copy `.env.example` to `.env` and populate the following API keys:
 
 ```env
@@ -40,5 +36,4 @@ STRIPE_LIVE_PK=your_live_publishable_key
 ```
 
 ## Deploy
-
 Deploy via SFTP (Secure File Transfer Protocol) to your preferred hosting provider, ensuring the server supports HTTPS.
