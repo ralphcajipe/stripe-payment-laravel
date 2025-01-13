@@ -25,7 +25,7 @@ composer require stripe/stripe-php
 - resources/views/success.blade.php
 
 ## Env
-Copy `.env.example` to `.env` and populate the following API keys:
+Copy <b>.env.example</b> to <b>.env</b> and populate the following API keys:
 
 ```env
 STRIPE_TEST_SK=your_test_secret_key
